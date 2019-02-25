@@ -4,12 +4,12 @@
     "description": "Build an Extension!",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
-      "scripts": ["background.js"],
+      "scripts": ["src/background.js"],
       "persistent": false
     },
     "page_action": {
-      "default_popup": "popup.html"
+      "default_popup": "src/popup.html"
     },
-    "options_page": "options.html",
+    "options_page": "src/options.html",
     "manifest_version": 2
   }
